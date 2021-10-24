@@ -1,0 +1,98 @@
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+}
+.section-padding {
+    padding: 100px 0;
+}
+
+.presentacion-area .present-wrap{
+    margin-top: 0;
+}
+.presentacion-area .present-img{
+    margin-top: 0;
+    background: #fff;
+    box-shadow: 0 2px 14.25px 0.75px rgb(58 58 58 / 15%);
+}
+.present-img{
+    padding: 70px;
+    text-align: center;
+}
+.present-text{
+    padding-left: 30px;
+}
+.presentacion-area .present-text h2{
+    color: #131058;
+    margin-top: -100px;
+}
+.present-text h2{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+.presentacion-area .present-text p{
+    color: #666;
+    margin-bottom: 30px;
+    font-size: 17px;
+    line-height: 30px;
+}
+.presentacion-area .present-text ul{
+    margin-left: -40px;
+    margin-bottom: 20px;
+}
+.presentacion-area .present-text ul li{
+    padding-bottom: 15px;
+    padding-left: 20px;
+    position: relative;
+}
+.presentacion-area .present-text ul li:before{
+    position: absolute;
+    left: 0;
+    top: 7px;
+    width: 8px;
+    height: 8px;
+    background: #fe3e57;
+    content: "";
+    border-radius: 50%;
+}
+.boton2{
+    background: #fe3e57;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    padding: 17px 40px 13px;
+    text-transform: capitalize;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    transition: all .3s;
+}
+.boton2:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    opacity: .3;
+    z-index: 9;
+    content: "";
+    transition: transform .6s;
+    transform: scale3d(1.9,1.4,1) rotate(180deg) translate3d(0,100%,0);
+}
+
+.boton2:hover:before {
+    transform: scale3d(1.9,1.4,1) rotate(180deg) translate3d(0,-100%,0);
+}
+.boton2:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    opacity: .3;
+    z-index: 9;
+    content: "";
+    transition: transform .6s;
+}

@@ -1,0 +1,74 @@
+<div style="margin-top: 50px;" class="col-md-6 offset-md-3">
+    <div class="intro">
+      <h1 style="font-size: 32px;color: rgb(43, 21, 17); text-align: center;" class="texto-intro" >
+        Países de Europa
+      </h1>
+      
+    </div>
+  </div>
+<section class="padded">
+    <div class="container fondos m-5">
+            <div class="row">
+                <div class="col-md-9">
+             <table class="table">
+                 <thead>
+                     <tr>
+
+                          <th>Cod</th>
+                          <th>País</th>
+                          <th>Capital</th>
+                          <th>Continente</th>
+                          <th>Sub Región</th>
+                          <th>Moneda</th>
+                          <th>Presidente</th>
+                     </tr>
+                 </thead>
+             <tbody id="tbody-paises" type="text" class="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <!-- Button trigger modal -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Paises</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" id="modales">
+        <div class="col-md-11">
+                                
+          <h3 style="color: rgb(27, 27, 27);" id="presidente-nombre-modal"></h3>
+          <h4 style="color: rgb(53, 51, 51);" id="pais-modal"></h4>
+          <img src="" alt="" class="" id="presidente-foto">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary">Guardar cambios</button>
+      </div>
+    </div>
+  </div>
+</div>
+             </tbody>
+
+         </table>                    
+      </div><!--col-md-9-->
+
+      <tbody id="tbody-paisesEU">
+      <div class="col-md-3">
+                                
+        <h3 id="pais-nombre"></h3>
+        <h4 id="pais-capital"></h4>
+        <img src="" alt="" class="img-fluid" id="pais-bandera">
+      </div>
+    </tbody>
+   </div><!--row-->
+</div><!--container-->
+
+</section>
+
+<script>
+
+    $.getScript("menu-nav/acerca.js");
+
+</script>
